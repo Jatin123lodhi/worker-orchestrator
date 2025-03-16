@@ -1,0 +1,32 @@
+we want to build a service called worker orchestrator
+In a system where each user need one ec2 instance
+this orchestrator service will help to assign ec2 instance to each 
+from the asg, programatically changing the desired capacity of machines
+as per the traffic so the new user don't need to wait most of the time
+
+It will be helpful in an application on online code editor applicaiton
+where each user can write code in vscode like envirmonent 
+as each user has access to sinlge ec2 instance 
+
+Steps I have taken - 
+
+// let's just create an ec2 instance 
+// install docker in it
+// run our coder-server+nodejs image as we want vs code running in it
+
+// create an ami from it
+// create an template using the ami
+// create an asg using the template
+
+// test the single instance of asg  - running
+
+
+// create an iam user with access to ec2 and asg
+// create secret key and access key for that user
+// added in env file
+
+
+// write the end points to programatically handle the asg desired capacity
+// we are able to set the desired capacity using the aws asg client
+// now we need to find a machine for a particular projectId
+
