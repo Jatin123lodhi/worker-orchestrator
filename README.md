@@ -49,3 +49,6 @@ AWS_SECRET_ACCESS_KEY=your_secret_key
 - AWS SDK (EC2 & Auto Scaling)
 - Docker
 - code-server (VS Code in browser)
+
+## Video explanation-
+https://drive.google.com/file/d/1n3ITOQiLkr2uC7YXLqxsSquLwGXci_4z/view
